@@ -15,7 +15,7 @@ const Hero = () => {
           duration: 0.9,
           ease: "easeInOut",
         }}
-        className=" relative flex flex-col gap-12 lg:gap-10 items-center justify-center px-4"
+        className=" relative flex flex-col gap-12 lg:gap-7 items-center justify-center px-4"
       >
         <div className="font-extralight text-center  py-4 text-sm">
           DYNAMIC WEB MAGIC WITH REACT

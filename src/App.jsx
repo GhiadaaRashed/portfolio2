@@ -9,7 +9,7 @@ function App() {
     <div  class="scroll-smooth font-mono p-0 m-0 box-border bg-slate-50">
       <Navbar/>
       <Routes>
-        <Route path='/deploy_react_app_github_pages_vercel' element={<Home/>}/>
+        <Route path='/' element={<Home/>}/>
         <Route path='/details/:id' element={<Webdetails/>}/>
       </Routes>
       <Footer/>
