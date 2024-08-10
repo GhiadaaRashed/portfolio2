@@ -6,7 +6,7 @@ export const gridItems = [
         className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh] text-white ",
         imgClassName: "w-full h-full",
         titleClassName: "justify-end",
-        img: "/b1.svg",
+        img: "../public/b1.svg",
         spareImg: "",
     },
     {
@@ -36,7 +36,7 @@ export const gridItems = [
         className: "lg:col-span-2 md:col-span-3 md:row-span-1 text-white",
         imgClassName: "",
         titleClassName: "justify-start",
-        img: "/grid.svg",
+        img: "../public/grid.svg",
         spareImg: "/b4.svg",
     },
     {
@@ -56,7 +56,7 @@ export const gridItems = [
         className: "md:col-span-3 md:row-span-2 text-white",
         imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
         titleClassName: "justify-center md:justify-start lg:justify-center",
-        img: "/b5.svg",
+        img: "../public/b5.svg",
         spareImg: "/grid.svg",
     },
 ];
@@ -148,27 +148,27 @@ export const lang = [
     {
         id: 1,
         name: "HTML",
-        img: "/html-icon.svg",
+        img: "../public/html-icon.svg",
     },
     {
         id: 2,
         name: "CSS",
-        img: "/css-icon.svg",
+        img: "../public/css-icon.svg",
     },
     {
         id: 3,
         name: "JAVA SCRIPT",
-        img: "/js.svg",
+        img: "../public/js.svg",
     },
     {
         id: 4,
         name: "REACT",
-        img: "/re.svg",
+        img: "../public/re.svg",
     },
     {
         id: 5,
         name: "TAILWIND",
-        img: "/tail.svg",
+        img: "../public/tail.svg",
     },
 ];
 
@@ -178,26 +178,26 @@ export const workExperience = [
         title: "Communication and Electronic Engineer",
         desc: "I studied at the University of Damascus in Syria.",
         className: "md:col-span-2",
-        thumbnail: "/exp2.svg",
+        thumbnail: "../public/exp2.svg",
     },
     {
         id: 2,
         title: "Fron-End react developer",
         desc: "I learned front-end development through a 5-month training program, and the projects included here are those I worked on during my training.",
         className: "md:col-span-2",
-        thumbnail: "/exp1.svg",
+        thumbnail: "../public/exp1.svg",
     },
 ];
 
 export const socialMedia = [
     {
         id: 1,
-        img: "/git.svg",
+        img: "../public/git.svg",
         link:'https://github.com/GhiadaaRashed'
     },
     {
         id: 2,
-        img: "/link.svg",
+        img: "../public/link.svg",
         link:'https://www.linkedin.com/in/ghaidaa-rashed-0729512b4/'
     },
 ];
