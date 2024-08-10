@@ -1,0 +1,8 @@
+ul li{
+    color: #e2e8f0;
+}
+ul{
+    top: 5%;
+    left: 50%;
+    transform: translatex(-50%);
+}

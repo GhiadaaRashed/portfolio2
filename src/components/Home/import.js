@@ -1,0 +1,7 @@
+export {default as Hero} from '../Hero/Hero'
+export {default as About} from '../Aboutme/About'
+export {default as Projects} from '../Projects/Projects'
+export {default as Skills} from '../Skills/Skills'
+export {default as Lang} from '../Langandtools/Lang'
+export {default as Contact} from '../Contact/Contact'
+export {default as Achievment} from '../Achievment/Achievment'
