@@ -6,7 +6,7 @@ export const gridItems = [
         className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh] text-white ",
         imgClassName: "w-full h-full",
         titleClassName: "justify-end",
-        img: "../public/b1.svg",
+        img: "/b1.svg",
         spareImg: "",
     },
     {
@@ -36,7 +36,7 @@ export const gridItems = [
         className: "lg:col-span-2 md:col-span-3 md:row-span-1 text-white",
         imgClassName: "",
         titleClassName: "justify-start",
-        img: "../public/grid.svg",
+        img: "/grid.svg",
         spareImg: "/b4.svg",
     },
     {
@@ -56,7 +56,7 @@ export const gridItems = [
         className: "md:col-span-3 md:row-span-2 text-white",
         imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
         titleClassName: "justify-center md:justify-start lg:justify-center",
-        img: "../public/b5.svg",
+        img: "/b5.svg",
         spareImg: "/grid.svg",
     },
 ];
@@ -65,25 +65,25 @@ export const projects = [
     {
         id: 1,
         title: "BookMart: Buy Books Online & Enjoy reading",
-        img: '../public/book1.png',
+        img: '/book1.png',
         link: "https://books-olive.vercel.app/",
     },
     {
         id: 2,
         title: "GPT-3 Showcase: Explore the Power of AI Language Model",
-        img: "../public/gpt1.png",
+        img: "/gpt1.png",
         link: "https://gpt3-one-kappa.vercel.app/",
     },
     {
         id: 3,
         title: "HealthyBites: Explore Nutritious Food Options Online",
-        img: "../public/food1.png",
+        img: "/food1.png",
         link: "https://ghiadaarashed.github.io/food/",
     },
     {
         id: 4,
         title: "Wanderlust Adventures: Your Ticket to Travel the World",
-        img: "../public/travel1.png",
+        img: "/travel1.png",
         link: "https://travel-kohl-nine.vercel.app/",
     },
 ];
@@ -92,7 +92,7 @@ export const projectdetails = [
         id: 1,
         title: "BookMart: Buy Books Online & Enjoy reading",
         des: "A comprehensive online platform offering a diverse range of books encompassing multiple genres, providing something for every reader's taste and preference",
-        img: '../public/book1.png',
+        img: '/book1.png',
         iconLists: ["/re.svg", "/css-icon.svg"],
         linkcode:'https://github.com/GhiadaaRashed/Books'
     },
@@ -100,7 +100,7 @@ export const projectdetails = [
         id: 2,
         title: "GPT-3 Showcase: Explore the Power of AI Language Model",
         des: "A website showcasing the significance of GPT-3, a state-of-the-art language model revolutionizing natural language processing and AI capabilities..",
-        img: "../public/gpt1.png",
+        img: "/gpt1.png",
         iconLists: ["/re.svg", "/css-icon.svg"],
         linkcode:'https://github.com/GhiadaaRashed/Gpt3'
     },
@@ -108,7 +108,7 @@ export const projectdetails = [
         id: 3,
         title: "HealthyBites: Explore Nutritious Food Options Online",
         des: "A comprehensive online platform highlighting the significance of consuming nutritious foods for promoting optimal health, preventing diseases, and enhancing quality of life.",
-        img: "../public/food1.png",
+        img: "/food1.png",
         iconLists: ["/re.svg", "/css-icon.svg"],
         linkcode:'https://github.com/GhiadaaRashed/food'
     },
@@ -116,7 +116,7 @@ export const projectdetails = [
         id: 4,
         title: "Wanderlust Adventures: Your Ticket to Travel the World",
         des: "A website showcasing top travel destinations worldwide, providing detailed information on tourist attractions and travel tips.",
-        img: "../public/travel1.png",
+        img: "/travel1.png",
         iconLists: ["/html-icon.svg", "/css-icon.svg", "/js.svg"],
         linkcode:'https://github.com/GhiadaaRashed/Travel'
     },
@@ -148,27 +148,27 @@ export const lang = [
     {
         id: 1,
         name: "HTML",
-        img: "../public/html-icon.svg",
+        img: "/html-icon.svg",
     },
     {
         id: 2,
         name: "CSS",
-        img: "../public/css-icon.svg",
+        img: "/css-icon.svg",
     },
     {
         id: 3,
         name: "JAVA SCRIPT",
-        img: "../public/js.svg",
+        img: "/js.svg",
     },
     {
         id: 4,
         name: "REACT",
-        img: "../public/re.svg",
+        img: "/re.svg",
     },
     {
         id: 5,
         name: "TAILWIND",
-        img: "../public/tail.svg",
+        img: "/tail.svg",
     },
 ];
 
@@ -178,26 +178,26 @@ export const workExperience = [
         title: "Communication and Electronic Engineer",
         desc: "I studied at the University of Damascus in Syria.",
         className: "md:col-span-2",
-        thumbnail: "../public/exp2.svg",
+        thumbnail: "/exp2.svg",
     },
     {
         id: 2,
         title: "Fron-End react developer",
         desc: "I learned front-end development through a 5-month training program, and the projects included here are those I worked on during my training.",
         className: "md:col-span-2",
-        thumbnail: "../public/exp1.svg",
+        thumbnail: "/exp1.svg",
     },
 ];
 
 export const socialMedia = [
     {
         id: 1,
-        img: "../public/git.svg",
+        img: "/git.svg",
         link:'https://github.com/GhiadaaRashed'
     },
     {
         id: 2,
-        img: "../public/link.svg",
+        img: "/link.svg",
         link:'https://www.linkedin.com/in/ghaidaa-rashed-0729512b4/'
     },
 ];
