@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const Projects = () => {
   return (
     <div id='projects' className='py-10 px-5   lg:px-10' >
-      <h1 className='flex justify-center items-center text-3xl gap-4 flex-wrap font-medium lg:text-6xl md:text-4xl  text-blue-950'>
+      <h1 className='flex justify-center items-center text-center text-3xl gap-4 flex-wrap font-medium lg:text-6xl md:text-4xl  text-blue-950'>
         A small selection of  {'     '}
         <span className='text-purple-600'>
           recent projects
@@ -17,13 +17,7 @@ const Projects = () => {
             <div className=' flex items-center justify-center '>
               <CardContainer className="inter-var width[300px] lg:width[600px]">
                 <CardBody className="bg-slate-950 relative group/card  dark:hover:shadow-2xl border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
-                  <CardItem
-                    translateZ="50"
-                    className="text-xl font-bold text-sky-100"
-                  >
-                    {item.title}
-                  </CardItem>
-                  <CardItem translateZ="100" className="w-full mt-4">
+                <CardItem translateZ="100" className="w-full mt-4">
                     <img
                       src={item.img}
                       height="1000"
@@ -32,10 +26,16 @@ const Projects = () => {
                       alt="thumbnail"
                     />
                   </CardItem>
-                  <div className="flex justify-between items-center mt-20">
+                  <CardItem
+                    translateZ="50"
+                    className="text-xl font-bold text-sky-100 pt-10"
+                  >
+                    {item.title}
+                  </CardItem>
+                  <div className="flex gap-x-7 min-[400px]:justify-between items-center mt-10">
                     <CardItem
                       as="button"
-                      className="px-4 py-2 rounded-xl bg-slate-300 text-sky-950 font-bold"
+                      className="px-2 md:px-4 py-2 rounded-xl bg-slate-300 text-sky-950 font-bold"
                     >
                       <Link to={`/details/${item.id}`}>Show Details</Link>
                     </CardItem>
@@ -45,7 +45,7 @@ const Projects = () => {
                       target="__blank"
                       className="text-sky-200 font-bold"
                     >
-                      <a href={item.link} className='flex gap-x-1 justify-center items-center'>Check Live Site <FaLocationArrow /></a>
+                      <a href={item.link} className='flex gap-2 justify-center text-sm md:text-base items-center'>Check Live Site <FaLocationArrow /></a>
                     </CardItem>
                   </div>
                 </CardBody>

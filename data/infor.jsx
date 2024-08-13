@@ -182,7 +182,7 @@ export const workExperience = [
     },
     {
         id: 2,
-        title: "Fron-End react developer",
+        title: "Front-End react developer",
         desc: "I learned front-end development through a 5-month training program, and the projects included here are those I worked on during my training.",
         className: "md:col-span-2",
         thumbnail: "/exp1.svg",

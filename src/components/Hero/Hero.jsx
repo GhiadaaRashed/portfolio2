@@ -20,7 +20,7 @@ const Hero = () => {
         <div className="font-extralight text-center  py-4 text-sm">
           DYNAMIC WEB MAGIC WITH REACT
         </div>
-        <div className="text-3xl md:text-7xl font-bold  text-center text-teal-950">
+        <div className="text-3xl md:text-4xl lg:text-7xl font-bold  text-center text-teal-950">
           Transforming Concepts into Seamless User Experiences
         </div>
         <div className="font-extralight text-center md:text-4xl py-4 ">

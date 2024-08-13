@@ -154,13 +154,12 @@ export const BentoGridItem = ({
                                 {/* <img src="/confetti.gif" alt="confetti" /> */}
                                 <Lottie options={defaultOptions} height={200} width={400} />
                             </div>
-
                             <MagicButton
                                 title={copied ? "Email is Copied!" : "Copy my email address"}
                                 icon={<IoCopyOutline />}
                                 position="left"
                                 handleClick={handleCopy}
-                                otherClasses="!bg-[#161A31]"
+                                otherClasses="!bg-[#161A31] text-xs lg:text-sm"
                             />
                         </div>
                     )}
