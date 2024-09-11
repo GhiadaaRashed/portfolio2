@@ -109,7 +109,7 @@ export const projectdetails = [
         title: "HealthyBites: Explore Nutritious Food Options Online",
         des: "A comprehensive online platform highlighting the significance of consuming nutritious foods for promoting optimal health, preventing diseases, and enhancing quality of life.",
         img: "/food1.png",
-        iconLists: ["/re.svg", "/css-icon.svg"],
+        iconLists: ["/html-icon.svg", "/css-icon.svg", "/js.svg"],
         linkcode:'https://github.com/GhiadaaRashed/food'
     },
     {
