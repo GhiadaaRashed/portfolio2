@@ -1,4 +1,4 @@
-import Webstyle from '../Webstyle/Webstyle'
+import Webstyle from '../../components/Webstyle/Webstyle'
 import { useParams } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import { projectdetails } from '../../../data/infor';

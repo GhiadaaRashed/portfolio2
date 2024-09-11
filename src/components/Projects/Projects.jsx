@@ -4,7 +4,7 @@ import { FaLocationArrow } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 const Projects = () => {
   return (
-    <div id='projects' className='py-10 px-5   lg:px-10' >
+    <div id='projects' className='py-10 px-5 ' >
       <h1 className='flex justify-center items-center text-center text-3xl gap-4 flex-wrap font-medium lg:text-6xl md:text-4xl  text-blue-950'>
         A small selection of  {'     '}
         <span className='text-purple-600'>
@@ -22,7 +22,7 @@ const Projects = () => {
                       src={item.img}
                       height="1000"
                       width="1000"
-                      className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
+                      className="h-60 w-full object-fill rounded-xl group-hover/card:shadow-xl"
                       alt="thumbnail"
                     />
                   </CardItem>

@@ -1,0 +1,7 @@
+export {default as Hero} from '../../components/Hero/Hero'
+export {default as About} from '../../components/Aboutme/About'
+export {default as Projects} from '../../components/Projects/Projects'
+export {default as Skills} from '../../components/Skills/Skills'
+export {default as Lang} from '../../components/Langandtools/Lang'
+export {default as Contact} from '../../components/Contact/Contact'
+export {default as Achievment} from '../../components/Achievment/Achievment'

@@ -9,14 +9,14 @@ const Achievment = () => {
         Achievments
         </span>
       </h1>
-      <div className='flex flex-wrap justify-center items-center text-3xl lg:gap-20 gap-4 flex-wrap p-12'>
+      <div className='flex flex-wrap  justify-center items-center text-3xl md:gap-20 gap-4  p-12'>
         {workExperience.map((card)=>{
           return(
           <Button
           borderRadius="1.75rem"
           className="bg-slate-900 text-white border-neutral-200  "
         >
-          <div className='flex wrap py-14 px-5 gap-5 lg:gap-2 justify-center flex-col lg:flex-row items-center'>
+          <div className='flex wrap py-14 px-5 gap-5 lg:gap-2 justify-center flex-col md:flex-row items-center'>
             <img src={card.thumbnail} className='lg:w-28 md:w-20 w-16' alt="" />
             <div className='flex flex-col gap-1'>
             <h1 className='text-lg'>{card.title}</h1>

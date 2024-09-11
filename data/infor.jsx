@@ -121,26 +121,26 @@ export const projectdetails = [
         linkcode:'https://github.com/GhiadaaRashed/Travel'
     },
 ];
-export const skill = [
+export const slides = [
     {
+        id:1,
         title: "Time Management Ability",
-        quote:"Effective time management is the art of prioritizing tasks efficiently to maximize productivity and achieve goals within set deadlines. It involves planning, organizing, and executing tasks in a strategic manner to optimize one's use of time.",
-        name: "",
+        disc:"Effective time management is the art of prioritizing tasks efficiently to maximize productivity and achieve goals within set deadlines.",
     },
     {
+        id:2,
         title: "Communication with others",
-        quote:"Effective communication with others involves not only speaking clearly and listening actively but also showing empathy, understanding, and respect in interactions to ensure effective exchange of information and ideas.",
-        name: "",
+        disc:"Effective communication with others involves not only speaking clearly and listening actively but also showing empathy, understanding, and respect ",
     },
     {
+        id:3,
         title: "Teamwork",
-        quote:"Teamwork is the collaborative effort of individuals working together towards a common goal, leveraging each other's strengths, skills, and knowledge to achieve shared objectives.",
-        name: "",
+        disc:"Teamwork is the collaborative effort of individuals working together towards a common goal, leveraging each other's strengths, skills, and knowledge to achieve shared objectives.",
     },
     {
+        id:4,
         title: "Languages",
-        quote:"I am able to communicate in both Arabic and English, with a stronger proficiency in Arabic.",
-        name: "",
+        disc:"I am able to communicate in both Arabic and English, with a stronger proficiency in Arabic.",
     },
 ];
 
